@@ -12,3 +12,5 @@ https://codesandbox.io/u/juanpablo.zunigah
 
 
 #lets make magic happen universe. 
+
+#If you want to read what instructions I got. Please check the file "Instructions".
