@@ -1,0 +1,78 @@
+.page-display {
+  background-color: black;
+  min-height: 100vh;
+  color: white;
+  font-family: monospace;
+  width: 100%;
+  min-width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.content-bottom {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.content-title {
+  min-width: 300px;
+  max-height: 300px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.ct-1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+.ct-2 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+.ct-3 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+.ct-4 {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+.ct-5 {
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+.content-table {
+  width: 80%;
+  min-width: 300px;
+  padding-top: 0%;
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: smaller;
+}
+.table {
+  table-layout: fixed;
+  width: 100%;
+}
+.special {
+  white-space: nowrap;
+}
